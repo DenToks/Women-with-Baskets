@@ -1,0 +1,60 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 80px;
+  color: #3e2723;
+}
+
+p {
+  font-family: "Georgia", serif;
+  color: #3e2723;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.short-introduction {
+  line-height: 1.8;
+  max-width: 800px;
+  margin: 40px auto;
+}
+
+img {
+  width: 200px;
+  height: auto;
+}
+
+video {
+  width: 100%;
+  max-width: 1187.27px;
+  height: auto;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  gap: 0;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+h3 {
+  font-family: "Pinyon Script", cursive;
+  font-size: 40px;
+  color: #3e2723;
+}
+
+
+
+main {
+  margin-bottom: 100px;
+}
+
+.border-bottom {
+  border-bottom: 2px solid #3e2723;
+  margin: 40px auto;
+  width: 80%;
+}
